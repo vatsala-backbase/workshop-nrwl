@@ -14,7 +14,7 @@
         "polyfills": "apps/bg-game/src/polyfills.ts",
         "tsConfig": "apps/bg-game/tsconfig.app.json",
         "assets": ["apps/bg-game/src/favicon.ico", "apps/bg-game/src/assets"],
-        "styles": ["apps/bg-game/src/styles.css"],
+        "styles": ["apps/bg-game/src/styles.css", "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"],
         "scripts": []
       },
       "configurations": {
