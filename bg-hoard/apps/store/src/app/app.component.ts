@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(private httpClient: HttpClient){}
+  constructor(private httpClient: HttpClient) {}
   title = 'Board Game Hoard';
   games = this.httpClient.get<any[]>('/api/games');
   formatRating = formatRating;

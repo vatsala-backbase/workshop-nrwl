@@ -11,12 +11,10 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     MatButtonModule,
     RouterModule.forChild([
-       {path: '', pathMatch: 'full', component: GameDetailComponent}
+      { path: '', pathMatch: 'full', component: GameDetailComponent },
     ]),
   ],
-  declarations: [
-    GameDetailComponent
-  ],
-  exports: [GameDetailComponent]
+  declarations: [GameDetailComponent],
+  exports: [GameDetailComponent],
 })
 export class StoreFeatureGameDetailModule {}

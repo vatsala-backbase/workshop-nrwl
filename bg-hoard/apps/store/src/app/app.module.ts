@@ -16,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
         {
           path: 'game/:id',
           loadChildren: () =>
-            import("@bg-hoard/store/feature-game-detail").then(
+            import('@bg-hoard/store/feature-game-detail').then(
               (module) => module.StoreFeatureGameDetailModule
             ),
         },
