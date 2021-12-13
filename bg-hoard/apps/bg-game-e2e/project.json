@@ -1,0 +1,28 @@
+{
+  "root": "apps/bg-game-e2e",
+  "sourceRoot": "apps/bg-game-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/bg-game-e2e/cypress.json",
+        "devServerTarget": "bg-game:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "bg-game:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/bg-game-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["bg-game"]
+}

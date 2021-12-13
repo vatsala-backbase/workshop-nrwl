@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "bg-game": "apps/bg-game",
+    "bg-game-e2e": "apps/bg-game-e2e"
+  }
+}
