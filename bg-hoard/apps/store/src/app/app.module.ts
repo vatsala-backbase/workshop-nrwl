@@ -23,9 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
       ],
       { initialNavigation: 'enabledBlocking' }
     ),
-    HttpClientModule,
     MatCardModule,
     StoreUiSharedModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
