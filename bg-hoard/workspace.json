@@ -4,6 +4,7 @@
     "bg-game": "apps/bg-game",
     "bg-game-e2e": "apps/bg-game-e2e",
     "store": "apps/store",
-    "store-e2e": "apps/store-e2e"
+    "store-e2e": "apps/store-e2e",
+    "store-ui-shared": "libs/store/ui-shared"
   }
 }
