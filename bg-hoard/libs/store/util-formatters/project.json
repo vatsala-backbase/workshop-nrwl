@@ -19,6 +19,5 @@
       }
     }
   },
-  "tags": ["scope:store", "type:util"],
-  "implicitDependencies": []
+  "tags": []
 }

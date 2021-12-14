@@ -3,7 +3,6 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { map, switchMap } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { formatRating } from '@bg-hoard/store/util-formatters';
-import { Game } from '@bg-hoard/util-interface';
 
 @Component({
   selector: 'bg-hoard-game-detail',
