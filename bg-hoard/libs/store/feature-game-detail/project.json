@@ -22,5 +22,6 @@
       }
     }
   },
-  "tags": []
+  "tags": ["scope:store", "type:feature"],
+  "implicitDependencies": []
 }
