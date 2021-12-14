@@ -3,7 +3,7 @@ name: Run CI checks # The name will show up on the GitHub Actions dashboard
 on: [pull_request] # This workflow will run only on Pull Requests
 
 jobs:
-  test-store: # give our job an ID
+  test: # give our job an ID
     runs-on: ubuntu-latest # the image our job will run on
     name: Test Store # the name that will appear on the Actions UI
     steps: # what steps it will perform
