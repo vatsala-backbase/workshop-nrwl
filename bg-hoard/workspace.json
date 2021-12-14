@@ -8,6 +8,7 @@
     "store-ui-shared": "libs/store/ui-shared",
     "store-ui-shared-e2e": "apps/store-ui-shared-e2e",
     "store-util-formatters": "libs/store/util-formatters",
+    "util-dates": "libs/util-dates",
     "util-interface": "libs/util-interface"
   }
 }
